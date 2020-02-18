@@ -10,6 +10,9 @@
 #include "P0001_01_IsUnique.h"
 #include "P0001_02_CheckPermutation.h"
 #include "P0001_03_String_to_URL_LCCI.h"
+#include "P0001_04_PalindromePermutation.h"
+#include "P0001_05_OneAway.h"
+#include "P0001_06_CompressString.h"
 
 using namespace std;
 

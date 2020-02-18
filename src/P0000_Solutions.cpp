@@ -20,6 +20,15 @@ void P0000_Solutions::test(int prob_num) {
         case 3:
             run(new P0001_03_String_to_URL_LCCI());
             break;
+        case 4:
+            run(new P0001_04_PalindromePermutation());
+            break;
+        case 5:
+            run(new P0001_05_OneAway());
+            break;
+        case 6:
+            run(new P0001_06_CompressString());
+            break;
         default:
             cout << "Number not find! " << endl;
             break;

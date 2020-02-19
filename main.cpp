@@ -3,7 +3,7 @@
 
 
 int main() {
-    int prob_num = 6;
+    int prob_num = 1;
 
     P0000_Solutions obj;
     obj.test(prob_num);

@@ -13,6 +13,7 @@
 #include "P0001_04_PalindromePermutation.h"
 #include "P0001_05_OneAway.h"
 #include "P0001_06_CompressString.h"
+#include "P0001_07_RotateMatrix.h"
 
 using namespace std;
 

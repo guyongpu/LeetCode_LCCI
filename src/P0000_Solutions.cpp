@@ -9,7 +9,7 @@ void P0000_Solutions::test(int prob_num) {
         cout << "Number error!" << endl;
         return;
     }
-    prob_num = 9;
+    prob_num = 13;
     switch (prob_num) {
         case 1:
             run(new P0001_01_IsUnique());
@@ -38,6 +38,17 @@ void P0000_Solutions::test(int prob_num) {
         case 9:
             run(new P0001_09_FlippedString());
             break;
+        case 10:
+            run(new P0002_01_RemoveDuplicateNode());
+            break;
+        case 11:
+            run(new P0002_02_KthNodeFromEndOfList());
+            break;
+        case 12:
+            run(new P0002_03_DeleteMiddleNode());
+        case 13:
+            run(new P0002_04_PartitionList());
+            break;
         default:
             cout << "Number not find! " << endl;
             break;
@@ -50,5 +61,4 @@ void P0000_Solutions::test(int prob_num) {
 template<typename T>
 void run(T pobj) {
     pobj->test();
-
 }

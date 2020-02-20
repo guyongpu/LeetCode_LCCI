@@ -16,6 +16,10 @@
 #include "P0001_07_RotateMatrix.h"
 #include "P0001_08_ZeroMatrix.h"
 #include "P0001_09_FlippedString.h"
+#include "P0002_01_RemoveDuplicateNode.h"
+#include "P0002_02_KthNodeFromEndOfList.h"
+#include "P0002_03_DeleteMiddleNode.h"
+#include "P0002_04_PartitionList.h"
 
 using namespace std;
 

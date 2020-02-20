@@ -9,7 +9,7 @@ void P0000_Solutions::test(int prob_num) {
         cout << "Number error!" << endl;
         return;
     }
-    prob_num = 7;
+    prob_num = 9;
     switch (prob_num) {
         case 1:
             run(new P0001_01_IsUnique());
@@ -31,6 +31,12 @@ void P0000_Solutions::test(int prob_num) {
             break;
         case 7:
             run(new P0001_07_RotateMatrix());
+            break;
+        case 8 :
+            run(new P0001_08_ZeroMatrix());
+            break;
+        case 9:
+            run(new P0001_09_FlippedString());
             break;
         default:
             cout << "Number not find! " << endl;

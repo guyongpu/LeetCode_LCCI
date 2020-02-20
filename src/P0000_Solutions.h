@@ -14,6 +14,8 @@
 #include "P0001_05_OneAway.h"
 #include "P0001_06_CompressString.h"
 #include "P0001_07_RotateMatrix.h"
+#include "P0001_08_ZeroMatrix.h"
+#include "P0001_09_FlippedString.h"
 
 using namespace std;
 

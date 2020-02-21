@@ -20,6 +20,10 @@
 #include "P0002_02_KthNodeFromEndOfList.h"
 #include "P0002_03_DeleteMiddleNode.h"
 #include "P0002_04_PartitionList.h"
+#include "P0002_05_SumLists.h"
+#include "P0002_06_PalindromeLinkedList.h"
+#include "P0002_07_IntersectionOfTwoLinkedLists.h"
+#include "P0002_08_LinkedListCycle.h"
 
 using namespace std;
 

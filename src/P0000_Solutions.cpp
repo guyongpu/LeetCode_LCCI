@@ -9,7 +9,7 @@ void P0000_Solutions::test(int prob_num) {
         cout << "Number error!" << endl;
         return;
     }
-    prob_num = 13;
+    prob_num = 17;
     switch (prob_num) {
         case 1:
             run(new P0001_01_IsUnique());
@@ -48,6 +48,18 @@ void P0000_Solutions::test(int prob_num) {
             run(new P0002_03_DeleteMiddleNode());
         case 13:
             run(new P0002_04_PartitionList());
+            break;
+        case 14:
+            run(new P0002_05_SumLists());
+            break;
+        case 15:
+            run(new P0002_06_PalindromeLinkedList());
+            break;
+        case 16:
+            run(new P0002_07_IntersectionOfTwoLinkedLists());
+            break;
+        case 17:
+            run(new P0002_08_LinkedListCycle());
             break;
         default:
             cout << "Number not find! " << endl;

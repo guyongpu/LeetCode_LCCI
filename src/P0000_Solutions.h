@@ -24,6 +24,9 @@
 #include "P0002_06_PalindromeLinkedList.h"
 #include "P0002_07_IntersectionOfTwoLinkedLists.h"
 #include "P0002_08_LinkedListCycle.h"
+#include "P0003_01_TripleInOne.h"
+#include "P0003_02_MinStack.h"
+#include "P0003_03_StackOfPlates.h"
 
 using namespace std;
 

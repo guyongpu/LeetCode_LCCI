@@ -9,7 +9,6 @@ void P0000_Solutions::test(int prob_num) {
         cout << "Number error!" << endl;
         return;
     }
-    prob_num = 17;
     switch (prob_num) {
         case 1:
             run(new P0001_01_IsUnique());
@@ -60,6 +59,15 @@ void P0000_Solutions::test(int prob_num) {
             break;
         case 17:
             run(new P0002_08_LinkedListCycle());
+            break;
+        case 18:
+            run(new P0003_01_TripleInOne(2));
+            break;
+        case 19:
+            run(new P0003_02_MinStack());
+            break;
+        case 20:
+            run(new P0003_03_StackOfPlates(1));
             break;
         default:
             cout << "Number not find! " << endl;

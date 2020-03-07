@@ -27,6 +27,7 @@
 #include "P0003_01_TripleInOne.h"
 #include "P0003_02_MinStack.h"
 #include "P0003_03_StackOfPlates.h"
+#include "P0005_06_ConvertInteger.h"
 
 using namespace std;
 
@@ -36,7 +37,7 @@ void run(T pobj);
 
 class P0000_Solutions {
 public:
-    void test(int prob_num);
+    void test(int prob_num = 21);
 };
 
 

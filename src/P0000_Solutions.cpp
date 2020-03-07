@@ -69,6 +69,9 @@ void P0000_Solutions::test(int prob_num) {
         case 20:
             run(new P0003_03_StackOfPlates(1));
             break;
+        case 21:
+            run(new P0005_06_ConvertInteger());
+            break;
         default:
             cout << "Number not find! " << endl;
             break;

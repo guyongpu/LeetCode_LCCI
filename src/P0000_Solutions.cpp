@@ -4,79 +4,54 @@
 
 #include "P0000_Solutions.h"
 
-void P0000_Solutions::test(int prob_num) {
-    if (prob_num <= 0) {
-        cout << "Number error!" << endl;
-        return;
+void P0000_Solutions::test(string str_num) {
+    if (str_num == "P0001_01_IsUnique") {
+        run(new P0001_01_IsUnique());
+    } else if (str_num == "P0001_02_CheckPermutation") {
+        run(new P0001_02_CheckPermutation());
+    } else if (str_num == "P0001_03_String_to_URL_LCCI") {
+        run(new P0001_03_String_to_URL_LCCI());
+    } else if (str_num == "P0001_04_PalindromePermutation") {
+        run(new P0001_04_PalindromePermutation());
+    } else if (str_num == "P0001_05_OneAway") {
+        run(new P0001_05_OneAway());
+    } else if (str_num == "P0001_06_CompressString") {
+        run(new P0001_06_CompressString());
+    } else if (str_num == "P0001_07_RotateMatrix") {
+        run(new P0001_07_RotateMatrix());
+    } else if (str_num == "P0001_08_ZeroMatrix") {
+        run(new P0001_08_ZeroMatrix());
+    } else if (str_num == "P0001_09_FlippedString") {
+        run(new P0001_09_FlippedString());
+    } else if (str_num == "P0002_01_RemoveDuplicateNode") {
+        run(new P0002_01_RemoveDuplicateNode());
+    } else if (str_num == "P0002_02_KthNodeFromEndOfList") {
+        run(new P0002_02_KthNodeFromEndOfList());
+    } else if (str_num == "P0002_03_DeleteMiddleNode") {
+        run(new P0002_03_DeleteMiddleNode());
+    } else if (str_num == "P0002_04_PartitionList") {
+        run(new P0002_04_PartitionList());
+    } else if (str_num == "P0002_05_SumLists") {
+        run(new P0002_05_SumLists());
+    } else if (str_num == "P0002_06_PalindromeLinkedList") {
+        run(new P0002_06_PalindromeLinkedList());
+    } else if (str_num == "P0002_07_IntersectionOfTwoLinkedLists") {
+        run(new P0002_07_IntersectionOfTwoLinkedLists());
+    } else if (str_num == "P0002_08_LinkedListCycle") {
+        run(new P0002_08_LinkedListCycle());
+    } else if (str_num == "P0003_01_TripleInOne") {
+        run(new P0003_01_TripleInOne(2));
+    } else if (str_num == "P0003_02_MinStack") {
+        run(new P0003_02_MinStack());
+    } else if (str_num == "P0003_03_StackOfPlates") {
+        run(new P0003_03_StackOfPlates(1));
+    } else if (str_num == "P0005_06_ConvertInteger") {
+        run(new P0005_06_ConvertInteger());
+    } else if(str_num == "P0005_07_Exchange"){
+        run(new P0005_07_Exchange());
     }
-    switch (prob_num) {
-        case 1:
-            run(new P0001_01_IsUnique());
-            break;
-        case 2:
-            run(new P0001_02_CheckPermutation());
-            break;
-        case 3:
-            run(new P0001_03_String_to_URL_LCCI());
-            break;
-        case 4:
-            run(new P0001_04_PalindromePermutation());
-            break;
-        case 5:
-            run(new P0001_05_OneAway());
-            break;
-        case 6:
-            run(new P0001_06_CompressString());
-            break;
-        case 7:
-            run(new P0001_07_RotateMatrix());
-            break;
-        case 8 :
-            run(new P0001_08_ZeroMatrix());
-            break;
-        case 9:
-            run(new P0001_09_FlippedString());
-            break;
-        case 10:
-            run(new P0002_01_RemoveDuplicateNode());
-            break;
-        case 11:
-            run(new P0002_02_KthNodeFromEndOfList());
-            break;
-        case 12:
-            run(new P0002_03_DeleteMiddleNode());
-        case 13:
-            run(new P0002_04_PartitionList());
-            break;
-        case 14:
-            run(new P0002_05_SumLists());
-            break;
-        case 15:
-            run(new P0002_06_PalindromeLinkedList());
-            break;
-        case 16:
-            run(new P0002_07_IntersectionOfTwoLinkedLists());
-            break;
-        case 17:
-            run(new P0002_08_LinkedListCycle());
-            break;
-        case 18:
-            run(new P0003_01_TripleInOne(2));
-            break;
-        case 19:
-            run(new P0003_02_MinStack());
-            break;
-        case 20:
-            run(new P0003_03_StackOfPlates(1));
-            break;
-        case 21:
-            run(new P0005_06_ConvertInteger());
-            break;
-        default:
-            cout << "Number not find! " << endl;
-            break;
-
-
+    else {
+        cout << "Number not find! " << endl;
     }
 }
 

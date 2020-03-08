@@ -27,6 +27,7 @@
 #include "P0003_01_TripleInOne.h"
 #include "P0003_02_MinStack.h"
 #include "P0003_03_StackOfPlates.h"
+#include "P0005_04_ClosedNumber.h"
 #include "P0005_06_ConvertInteger.h"
 #include "P0005_07_Exchange.h"
 
@@ -35,7 +36,7 @@ template<typename T>
 void run(T pobj);
 class P0000_Solutions {
 public:
-    void test(string str_num = "P0005_07_Exchange");
+    void test(string str_num = "P0005_04_ClosedNumber");
 };
 
 

@@ -45,13 +45,15 @@ void P0000_Solutions::test(string str_num) {
         run(new P0003_02_MinStack());
     } else if (str_num == "P0003_03_StackOfPlates") {
         run(new P0003_03_StackOfPlates(1));
+    } else if (str_num == "P0005_04_ClosedNumber") {
+        run(new P0005_04_ClosedNumber());
     } else if (str_num == "P0005_06_ConvertInteger") {
         run(new P0005_06_ConvertInteger());
-    } else if(str_num == "P0005_07_Exchange"){
+    } else if (str_num == "P0005_07_Exchange") {
         run(new P0005_07_Exchange());
-    }
-    else {
-        cout << "Number not find! " << endl;
+    } else {
+        cout << "Number not find! " <<
+             endl;
     }
 }
 

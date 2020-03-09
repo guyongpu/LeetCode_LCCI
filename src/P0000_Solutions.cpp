@@ -45,6 +45,8 @@ void P0000_Solutions::test(string str_num) {
         run(new P0003_02_MinStack());
     } else if (str_num == "P0003_03_StackOfPlates") {
         run(new P0003_03_StackOfPlates(1));
+    } else if (str_num == "P0005_02_BianryNumberToString") {
+        run(new P0005_02_BianryNumberToString());
     } else if (str_num == "P0005_03_ReverseBits") {
         run(new P0005_03_ReverseBits());
     } else if (str_num == "P0005_04_ClosedNumber") {

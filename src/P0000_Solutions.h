@@ -27,6 +27,7 @@
 #include "P0003_01_TripleInOne.h"
 #include "P0003_02_MinStack.h"
 #include "P0003_03_StackOfPlates.h"
+#include "P0004_04_CheckBalance.h"
 #include "P0005_01_InsertIntoBits.h"
 #include "P0005_02_BianryNumberToString.h"
 #include "P0005_03_ReverseBits.h"

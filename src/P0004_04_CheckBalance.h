@@ -1,0 +1,14 @@
+//
+// Created by yongpu on 2020/3/11.
+//
+
+#ifndef LEETCODE_LCCI_P0004_04_CHECKBALANCE_H
+#define LEETCODE_LCCI_P0004_04_CHECKBALANCE_H
+
+
+class P0004_04_CheckBalance {
+
+};
+
+
+#endif //LEETCODE_LCCI_P0004_04_CHECKBALANCE_H

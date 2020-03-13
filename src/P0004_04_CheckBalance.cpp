@@ -4,6 +4,13 @@
 
 #include "P0004_04_CheckBalance.h"
 
+/**
+ * 题目：
+ * @param node
+ * @param depth
+ * @return
+ */
+
 int count_depth(TreeNode *node, int depth) {
     if (node == nullptr) {
         return 0;

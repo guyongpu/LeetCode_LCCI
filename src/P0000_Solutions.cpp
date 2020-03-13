@@ -45,6 +45,8 @@ void P0000_Solutions::test(string str_num) {
         run(new P0003_02_MinStack());
     } else if (str_num == "P0003_03_StackOfPlates") {
         run(new P0003_03_StackOfPlates(1));
+    } else if (str_num == "P0004_05_LegalBinarySearchTree") {
+        run(new P0004_05_LegalBinarySearchTree());
     } else if (str_num == "P0004_04_CheckBalance") {
         run(new P0004_04_CheckBalance());
     } else if (str_num == "P0005_01_InsertIntoBits") {

@@ -5,10 +5,10 @@
 #include "P0004_04_CheckBalance.h"
 
 /**
- * 题目：
- * @param node
- * @param depth
- * @return
+ * 题目：检查平衡性
+ * 描述：实现一个函数，检查二叉树是否平衡.
+ * 思路：计算每个节点的左右子树深度，然后递归计算.
+ * 备注：要复习这个题
  */
 
 int count_depth(TreeNode *node, int depth) {

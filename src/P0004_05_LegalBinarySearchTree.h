@@ -6,13 +6,16 @@
 #define LEETCODE_LCCI_P0004_05_LEGALBINARYSEARCHTREE_H
 
 #include <iostream>
+#include <stack>
 #include "P0000_CommonHead.h"
 
 using namespace std;
 
 class P0004_05_LegalBinarySearchTree {
 public:
-    bool isValidBST(TreeNode *root);
+    bool isValidBST_1(TreeNode *root);
+    bool isValidBST_2(TreeNode *root);
+    bool isValidBST_3(TreeNode *root);
 
     int test();
 };
